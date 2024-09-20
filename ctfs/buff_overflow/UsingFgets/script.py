@@ -1,7 +1,7 @@
 #!/bin/env python
 import sys
 
-buffer = ("A" * 30)
+buffer = ("B" * 15)
 
 # buffer = b"\x00"
 

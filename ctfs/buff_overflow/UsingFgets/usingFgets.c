@@ -24,9 +24,9 @@ int printName() {
     printf("What is your name?\n");
 
     printf("> ");
-    int reads = fgets(&name, BUFF_SIZE+1, stdin); // Size of buffer plus the null terminator
+    fgets(&name, BUFF_SIZE+1, stdin); // Size of buffer plus the null terminator
 
-
+    printf("\nisAdmin = %x\n", isAdmin);
     if (isAdmin == FALSE) {
         printf("Welcome, %s!\n", name);
         printf("You are in this program, but we do not grant you the rank of Admin.\n");
@@ -36,7 +36,5 @@ int printName() {
         printf("With great power comes great responsibility...\n");
         printFlag();
     }
-
-    printf("\nisAdmin: %d\n", isAdmin);
     return EXIT_SUCCESS;
 }

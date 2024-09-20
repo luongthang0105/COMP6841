@@ -13,7 +13,7 @@ apple: 6_usingFgets_apple
 
 
 6_usingFgets:
-	${CC} ${COMPILE_FLAGS} -o ./challenge usingFgets.c
+	${CC} ${COMPILE_FLAGS} -m32 -o ./challenge usingFgets.c
 
 
 6_usingFgets_apple:
